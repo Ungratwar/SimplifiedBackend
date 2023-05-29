@@ -1,0 +1,35 @@
+{
+  "name": "simplified",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-api": "mocha test-cases/test.js",
+    "server": "npx nodemon server index.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "mocha": "^10.2.0",
+    "mongoose": "^7.1.1",
+    "multer": "^1.4.5-lts.1",
+    "node-uuid": "^1.4.8",
+    "nodemon": "^2.0.22",
+    "openapi": "^1.0.1",
+    "rate-limiter-flexible": "^2.4.1",
+    "swagger-autogen": "^2.23.1",
+    "swagger-ui-express": "^4.6.3",
+    "yamljs": "^0.3.0"
+  },
+  "keywords": []
+}

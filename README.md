@@ -1,2 +1,1 @@
-# SimplifiedBackend
-simplified schooling project backend 
+# simplified
